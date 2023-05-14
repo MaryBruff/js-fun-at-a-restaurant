@@ -11,25 +11,13 @@ function createRestaurant (name) {
   return pizzaRestaurant
 }
 
-function addMenuItem (restaurantName, itemName) {
-  restaurantName.menus.lunch.push(itemName)
-  return
-}
-
-
-// assert statement comparing-- comparing the expected number and message
-// how many arguments-- 
-// data type
-
-
-
 
 
 
 
 module.exports = {
   createRestaurant, 
-  addMenuItem,
+  // addMenuItem,
   // removeMenuItem,
   // checkForFood
 }
